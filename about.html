@@ -53,7 +53,8 @@ title: "About Me"
 	<h3>Skills</h3>
 	<div class="tags-container">
 		<div class="tags">
-			{% for skill in "Python,Swift,C++,Java,SQL,PyTorch,TensorFlow,Flask,PyQT,OpenCV,Docker,AWS,Linux,Git,Jira,LaTeX" | split: "," %}
+			{% assign skills = "Python,Swift,C++,Java,SQL,PyTorch,TensorFlow,Flask,PyQT,OpenCV,Docker,AWS,Linux,Git,Jira,LaTeX" | split: "," %}
+			{% for skill in skills %}
 			<div class="tag">{{ skill }}</div>
 			{% endfor %}
 		</div>
