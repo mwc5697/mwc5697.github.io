@@ -3,5 +3,59 @@ layout: page
 title: "About Me"
 ---
 <div class="w-100">
-	<p>🏀 I am an AI Engineer in D-Meta who is working with computer vision-related problems using Deep learning frameworks such as Pytorch and Tensorflow. I am looking forward to building more skills and experience in these areas. My current strengths include being able to pick up new AI-related technical skills quickly, communicating with others clearly, being an efficient worker under pressure, and being not afraid to speak out my thoughts. Other than work, I enjoy playing basketball, hanging out with others and traveling around the world.</p>
+	<p>I'm an AI Engineer at <b>LG Electronics</b>, where I build computer vision systems for manufacturing safety and defect detection — including PPE detection, GAN-based anomaly detection, and CCTV analytics deployed across factories in South Korea, Ohio, and India. I'm currently pursuing an M.S. in Artificial Intelligence at Arizona State University, working with the CoRAL Lab (advised by Prof. Vivek Gupta) on Vision-Language Models and multi-agent systems.</p>
+	<p>Before LG, I worked on AI-driven CCTV safety systems at D-Meta (Seoul subway and KTX rail) and on pose estimation and face recognition systems at Mindslab. I hold a B.S. in Computer Science, with a minor in Mathematics, from Penn State University.</p>
+	<p>Outside of work, I enjoy playing basketball, hanging out with friends, and traveling around the world.</p>
+</div>
+
+<div class="w-100" style="margin-top: 30px;">
+	<h3>Experience</h3>
+
+	<h4 style="margin-bottom: 0;">Software Engineer, AI &mdash; LG Electronics</h4>
+	<p class="font-0-8" style="margin-top: 2px; opacity: 0.7;">Sep 2023 &ndash; Present &middot; Pyeongtaek, South Korea</p>
+	<ul>
+		<li>Developed a video-processing AI solution that detects PPE usage, bringing workplace accidents to zero.</li>
+		<li>Built AI anomaly detection for surveillance video that reduced stop time, improving manufacturing speed by 40%.</li>
+		<li>Led an AI research team using GAN-based data generation to improve anomaly detection for defected items.</li>
+		<li>Managed strategic collaborations with manufacturing partners including Apple, Ultium Cells, and LG Energy Solution.</li>
+	</ul>
+
+	<h4 style="margin-bottom: 0;">AI Engineer &mdash; D-Meta</h4>
+	<p class="font-0-8" style="margin-top: 2px; opacity: 0.7;">May 2022 &ndash; Aug 2023 &middot; Seoul, South Korea</p>
+	<ul>
+		<li>Engineered Seoul's Lane 2 Subway Screen Door safety CCTV system with YOLOv5, achieving 94%+ accuracy.</li>
+		<li>Founded an AI team to build abnormal behavior detection for KTX, reaching 93.3% accuracy on loitering, intrusion, and incidents.</li>
+		<li>Designed technical assessments used to evaluate engineering applicants' proficiency in OpenCV.</li>
+	</ul>
+
+	<h4 style="margin-bottom: 0;">AI Engineer &mdash; Mindslab</h4>
+	<p class="font-0-8" style="margin-top: 2px; opacity: 0.7;">Jul 2020 &ndash; Mar 2022 &middot; Pangyo, South Korea</p>
+	<ul>
+		<li>Built a fitness application with 95% key point detection accuracy using 3D pose estimation.</li>
+		<li>Resolved a critical memory leak on edge devices for a human fall detection system (NTT Docomo/Sorest).</li>
+		<li>Developed a celebrity recognition model with 99% accuracy on 280 celebrities using MTCNN + ArcFace.</li>
+		<li>Built a facial and action-based risk identification system for Incheon Airport using MTCNN + FaceNet.</li>
+	</ul>
+</div>
+
+<div class="w-100" style="margin-top: 30px;">
+	<h3>Education</h3>
+
+	<h4 style="margin-bottom: 0;">M.S. in Artificial Intelligence &mdash; Arizona State University</h4>
+	<p class="font-0-8" style="margin-top: 2px; opacity: 0.7;">Aug 2026 &ndash; May 2028 (Expected) &middot; Tempe, AZ</p>
+	<p>Lab member, CoRAL Lab (Advisor: Prof. Vivek Gupta) &mdash; researching Vision-Language Models (VLM) and Multi-Agent Systems.</p>
+
+	<h4 style="margin-bottom: 0;">B.S. in Computer Science, Minor in Mathematics &mdash; Penn State University</h4>
+	<p class="font-0-8" style="margin-top: 2px; opacity: 0.7;">Aug 2013 &ndash; May 2020 &middot; State College, PA</p>
+</div>
+
+<div class="w-100" style="margin-top: 30px;">
+	<h3>Skills</h3>
+	<div class="tags-container">
+		<div class="tags">
+			{% for skill in "Python,Swift,C++,Java,SQL,PyTorch,TensorFlow,Flask,PyQT,OpenCV,Docker,AWS,Linux,Git,Jira,LaTeX" | split: "," %}
+			<div class="tag">{{ skill }}</div>
+			{% endfor %}
+		</div>
+	</div>
 </div>
